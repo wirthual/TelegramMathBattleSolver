@@ -25,6 +25,8 @@ NUMBER_OF_WINS = 5000                                                #Dont make 
 ###Then start the script by typing: 
 ```python2 MathBattleSolver.py```
 
+Now you should see a chrome window opening up. Then the game is played by the script.
+
 See a video here:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/PLc6rqnCgME/0.jpg)](http://www.youtube.com/watch?v=PLc6rqnCgME "Telegram Math Battle Solver")
