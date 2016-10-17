@@ -8,7 +8,7 @@ from time import sleep
 from pyscreeze import screenshot
 
 GAME_URL = 'https://tbot.xyz/lumber/#...'
-WEBDRIVER_PATH = '/home/raphael/Downloads/chromedriver'
+WEBDRIVER_PATH = '/home/test/Downloads/chromedriver'
 
 browser = Chrome(WEBDRIVER_PATH)
 browser.get(GAME_URL)
