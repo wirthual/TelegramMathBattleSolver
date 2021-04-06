@@ -19,7 +19,7 @@ buttonLeft.click()
 
 buttonRight = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, "button_right")))
 
-for i in range(0,300):
+for _ in range(300):
     scs = screenshot()
     manLeft = scs.getpixel((540, 550))
     manLeft = manLeft[0]>205

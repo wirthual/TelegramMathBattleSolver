@@ -21,15 +21,15 @@ while i<NUMBER_OF_WINS:
     print ("X:",task_x,"Operator:",task_op,"Y:",task_y,"Result:",task_res)
 
     result = -1
-    if task_op=="/":
-        result = task_x / task_y
-    if task_op=="+":
+    if task_op == "+":
         result = task_x + task_y
-    if task_op=="–":
-        result = task_x - task_y
-    if task_op=="×":
+    elif task_op == "/":
+        result = task_x / task_y
+    elif task_op == "×":
         result = task_x * task_y
-    
+
+    elif task_op == "–":
+        result = task_x - task_y
     print(result)
     button_wrong = button = browser.find_element_by_id("button_wrong")
     button_correct = button = browser.find_element_by_id("button_correct")
@@ -37,4 +37,4 @@ while i<NUMBER_OF_WINS:
         button_correct.click()
     else:
         button_wrong.click()
-i=i+1
+i += 1
